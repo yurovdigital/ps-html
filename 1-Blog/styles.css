@@ -1,0 +1,161 @@
+.body {
+  background: linear-gradient(#374151, #111827);
+  font-family: 'Roboto';
+}
+
+.header {
+  max-width: 1080px;
+  width: 100%;
+  color: #ffffff;
+  padding-top: 90px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.logo__container {
+  display: flex;
+  gap: 10px;
+}
+
+.logo {
+  background-color: #4b5563;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: #ffffff;
+  align-self: center;
+}
+
+.logo__text {
+  font-size: 18px;
+}
+
+.nav {
+  margin-left: 77px;
+}
+
+.nav__items {
+  list-style: none;
+  display: flex;
+  gap: 45px;
+  padding: 0;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+}
+
+.search__container {
+  margin-left: auto;
+  align-self: center;
+  position: relative;
+}
+
+.search__icon {
+  position: absolute;
+  top: 13px;
+  left: 20px;
+  width: 14px;
+  height: 14px;
+}
+
+.search__input {
+  border-radius: 100px;
+  width: 224px;
+  height: 40px;
+  background-color: rgba(31, 41, 55, 0.6);
+  border: 1px solid transparent;
+  margin: 0;
+  font-size: 16px;
+  padding: 0 0 0 49px;
+  color: #fff;
+  outline: none;
+}
+
+.search__input:focus {
+  border: 1px solid #fff;
+}
+
+.main {
+  margin: 70px auto;
+  color: #fff;
+}
+
+.subtitle {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.title {
+  text-align: center;
+  max-width: 525px;
+  margin: 14px auto 0;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.author__image {
+  width: 50px;
+  height: 50px;
+}
+
+.author__description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.author__name {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.author__subtitle {
+  margin: 0;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.image {
+  width: 896px;
+  height: 594px;
+  margin: 30px auto 0;
+  display: block;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  max-width: 708px;
+  margin: 69px auto 0;
+}
+
+.text {
+  font-size: 16px;
+}
+
+.text__size_big {
+  font-size: 20px;
+}
+
+.footer {
+  margin: 70px auto 70px;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+}
