@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>2-Form</title>
+  </head>
+  <body class="body">
+    <main class="container">
+      <h1 class="title">Регистрация</h1>
+      <p class="subtitle">
+        Уже есть аккаунт? <a class="loginLink" href="#">Войти</a>
+      </p>
+      <form class="form">
+        <input class="input" type="text" placeholder="Имя пользователя" />
+
+        <div class="row">
+          <input class="input" type="text" placeholder="Имя" />
+          <input class="input" type="text" placeholder="Фамилия" />
+        </div>
+
+        <input class="input" type="email" placeholder="Email" />
+        <button type="submit" class="button">
+          Зарегистрироваться <img src="./images/arrow.svg" class="icon" />
+        </button>
+        <label class="checkbox__label">
+          <input type="checkbox" name="terms" value="accepted" />
+          <span class="checkbox__custom"></span>
+          Я прочитал и принимаю
+          <a href="#" class="checkbox__link">Условия использования</a>
+        </label>
+      </form>
+    </main>
+  </body>
+</html>
